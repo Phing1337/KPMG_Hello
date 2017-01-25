@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+$("body").css("overflow", "hidden");
 console.log("Hello");
   
    /* addEventListener("click", function() {
