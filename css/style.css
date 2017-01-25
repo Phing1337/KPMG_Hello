@@ -1,0 +1,315 @@
+body {
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+.grad{
+    position: absolute;
+    float: left;
+    height: 200px;
+    background: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0));
+    width: 100%;
+    top: 0;
+    left: 0;
+    clear: both;
+    z-index: 2;
+}
+
+.active {
+    color: orange;
+}
+
+.fill {
+    
+    position: absolute;
+    float: left;
+    height: 1920px;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    top: 0;
+    left: 0;
+    clear: both;
+    z-index: 2;
+}
+
+.content {
+
+    position: absolute;
+    top: 200px;
+    left: 55px;
+    z-index: 4;
+}
+.title, .story, .leader{
+    font-family:  'open sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: white;
+
+}
+
+.story{
+    width: 50%;
+}
+
+.title {
+    font-size: 36pt;
+    font-weight: 300;
+    
+}
+.story {
+    font-size: 18pt;
+    font-weight: 400;
+}
+
+.xde:focus:{
+    color: orange;
+}
+.xde:hover:{
+    color: orange;
+}
+.xde:active:{
+    color: orange;
+}
+.xde:after:{
+    color: orange;
+}
+/*.info{ 
+  float: right; 
+  padding-right: 50px;
+  width: 580px;
+}
+
+.info .nav .option{
+  display: inline;
+  padding-left: 20px;
+}
+.info .nav .option .link{
+  color: #f9e42e;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.info .nav .option .link:hover{
+  font-weight: 800;
+} */
+
+.nav {
+    font-family:  'open sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    float: left;
+    z-index: 100;
+    left: -40px;
+    
+}
+.inactive {
+    color: white;
+}
+
+/* .active {
+    color: white;
+    font-weight: 600;
+    border-bottom: 1px solid orange; */
+}
+
+.lighthouse: hover{
+    color: white;
+    font-weight: 600;
+    border-bottom: 1px solid orange;
+}
+
+
+
+.disp {
+    display: inline;
+    margin-right: 20px;
+    
+    
+}
+
+.nav2 {
+    font-family:  'open sans', Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    float: left;
+    padding: 20px;
+    width: auto;
+    z-index: 99;
+    top: 5%;
+    left: 550px;
+}
+
+.nav1 {
+    
+    position: absolute;
+    float: left;
+    z-index: 99;
+    top: 5.5%;
+    left: 350px;
+}
+.logo {
+    position: absolute;
+    float: left;
+    clear: both;
+    height: auto;
+    width: 250px;
+    z-index: 99;
+    left: 50px;
+    top: 50px;
+    
+}
+.text {
+    position: relative;
+    top: 50px;
+    float: left;
+    width: 100%;
+    
+}
+
+
+.words{
+    position: absolute;
+    top: 250px;
+    clear: both;
+    float: left;
+}
+
+#fp-xde{
+    position: absolute;
+    left: 900px;
+    top: 50px;  
+    width: 35%;
+    height: 800px;
+    background-size:contain;
+    background-image: url(../img/XDE.png);
+    background-repeat: no-repeat;
+}
+#fp-oracle{
+    position: absolute;
+    left: 900px;
+    top: 50px;  
+    width: 35%;
+    height: 800px;
+    background-size:contain;
+    background-image: url(../img/Oracle.png);
+    background-repeat: no-repeat;
+}
+#fp-lighthouse{
+    position: absolute;
+    left: 900px;
+    top: 50px;  
+    width: 35%;
+    height: 800px;
+    background-size:contain;
+    background-image: url(../img/LightHouse.png);
+    background-repeat: no-repeat;
+}
+#fp-service{
+    position: absolute;
+    left: 900px;
+    top: 50px;  
+    width: 35%;
+    height: 800px;
+    background-size:contain;
+    background-image: url(../img/Service.png);
+    background-repeat: no-repeat;
+}
+#fp-tbm{
+    position: absolute;
+    left: 900px;
+    top: 50px;  
+    width: 35%;
+    height: 800px;
+    background-size:contain;
+    background-image: url(../img/TBM.png);
+    background-repeat: no-repeat;
+}
+#fp-workday{
+    position: absolute;
+    left: 900px;
+    top: 50px;  
+    width: 35%;
+    height: 800px;
+    background-size:contain;
+    background-image: url(../img/Workday.png);
+    background-repeat: no-repeat;
+}
+#fp-tax{
+    position: absolute;
+    left: 900px;
+    top: 50px;  
+    width: 35%;
+    height: 800px;
+    background-size:contain;
+    background-image: url(../img/TaxTech.png);
+    background-repeat: no-repeat;
+}
+#lighthouse{
+    display: none;
+}
+#xde {
+    
+}
+#oracle{
+    display: none;
+}
+#tax{
+    display: none;
+}
+#workday{
+    display: none;
+}
+#aptio{
+    display: none;
+}
+#service{
+    display: none;
+}
+
+#tbm {
+    display: none;
+}
+
+.lighthouse {
+    
+}
+
+.bio {
+    
+}
+
+.full {
+
+}
+
+.xde {
+    color: orange;
+}
+
+.bar {
+    border-bottom: 2px solid orange;
+    padding-top:15px;
+    width: 250px;
+}
+
+.leader {
+    position: absolute;
+    float: left;
+    top: 350px;
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+}
+
+.pic {
+    
+}
+
+.ign {
+    width: 200px;
+    height: auto;
+}
