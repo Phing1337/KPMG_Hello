@@ -22,7 +22,7 @@ a{
 }
 
 .fill {
-    
+    display: none;
     position: absolute;
     float: left;
     height: 1920px;
@@ -35,7 +35,7 @@ a{
 }
 
 .content {
-
+    display: none;
     position: absolute;
     top: 200px;
     left: 55px;

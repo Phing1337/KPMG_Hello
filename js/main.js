@@ -19,7 +19,7 @@ console.log("Hello");
 // then fade in page info
     
     $(".nav1").click(function(){
-        toggleBlur();
+       //toggleBlur();
     $(".content").fadeToggle();
     $('.fill').fadeToggle();
     
